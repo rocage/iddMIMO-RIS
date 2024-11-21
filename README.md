@@ -13,15 +13,15 @@ An iterative detection and decoding (IDD) scheme is proposed for multiuser multi
 
 ### This code was developed using MATLAB Live Script and consists of three main scripts: ###
 
-- **main.mlx:** This is scritp is the template for futures implementations.
-- **wcl01.mlx:** This scripts presents the results obtained at the Figure 01 (using parallel simulation).
-- **wcl02.mlx:** This scripts presents the results obtained at the Figure 02 (using parallel simulation).
+- **main.mlx:** This script serves as the template for future implementations.
+- **wcl01.mlx:** This script presents the results shown in Figure 01 (using parallel simulation).
+- **wcl02.mlx:** This script presents the results shown in Figure 02 (using parallel simulation).
 
 ### Performance Tips: ###
 To improve execution speed, especially for large-scale simulations, it is highly recommended to run the code in parallel. To do this, follow these steps:
 
 - Replace the inner for loop with a parfor loop.
-- Set the variable useParallel to false.
+- Set the variable useParallel to _true_.
 
 ### Data Tracking: ###
 For each SNR value, the code saves the results in the file nameofscript.mat. This enables users to monitor the progress of the simulation in real-time.

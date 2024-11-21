@@ -1,7 +1,8 @@
 # Iterative Detection and Decoding for Multiuser Systems Based on MMSE Refinements With Active or Passive RIS #
 
 This MATLAB script supports the results presented in the paper:
-Iterative Detection and Decoding for Multiuser Systems Based on MMSE Refinements with Active or Passive RIS
+_Iterative Detection and Decoding for Multiuser Systems Based on MMSE Refinements with Active or Passive RIS_
+
 Available at: https://ieeexplore.ieee.org/document/10747209
 
 # Abstract of the Article
